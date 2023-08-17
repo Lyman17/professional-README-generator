@@ -1,6 +1,4 @@
-# professional-README-generator
-Module 9 - Professional README Generator
-# f
+# Professional README Generator
 
   ## Table of Contents
   *[Project Description](#description)
@@ -12,18 +10,16 @@ Module 9 - Professional README Generator
   *[Questions](#questions)
 
   ## Description
-  f
+  The goal of this project is to generate a professional README file through prompts using node js in the terminal.
   ## Installation
-  f
+  clone the repo from GitHub https://github.com/Lyman17/Professional-README-Generator
   ## Usage
-  f
+  This file should be used to generate a professional README
   ## Contribution Guidelines
-  f
+  Contibutors are welcome
   ## Test Instructions
-  f
+  Test from the integrated terminal node index.js
   ## License 
-  Apache 2.0 License
-  ## Questions
-  - Github: undefined
-  - Email: undefined
+  The MIT License
+
   

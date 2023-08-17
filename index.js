@@ -43,7 +43,7 @@ inquirer
         {
             type: 'list',
             message: 'Choose a license for your project',
-            choices: ['Apache 2.0 License', 'BSD 2-Clause License', 'The MIT License', 'The Unilicense'],
+            choices: ['Apache 2.0 License', 'BSD 2-Clause License', 'The MIT License', "The Unilicense"],
             name: 'license',
         },
 
@@ -60,27 +60,12 @@ inquirer
         },
     ])
     
-    .then(({answers}) => 
+    .then((answers) => 
+        {console.log(answers)
         fs.writeFile('README.md', generateMarkdown(answers), (err) =>
         err ? console.log(err) : console.log("works")
         )
-    );
-
-    // .then(({name,bio}) =>
-    //     fs.writeFile('index.html', createHtml(name, bio), (err) =>
-    //         err ? console.log(err) : console.log("Sucess!")
-    //     )
-    // );
-
-// TODO: Create a function to write README file
-//     .then((answers) => {
-//     JSON.stringify(answers)
-//     fs.writeFileSync('generateREADME.md', generateREADME(answers))
-//     console.log('README here');
-// })
-
-// .catch((err) => console.error(err));
-
+});
 
 
 // TODO: Create a function to initialize app

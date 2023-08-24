@@ -1,4 +1,4 @@
-# Professional README Generator
+# Never gonna give you up
 
   ## Table of Contents
   *[Project Description](#description)
@@ -10,16 +10,18 @@
   *[Questions](#questions)
 
   ## Description
-  The goal of this project is to generate a professional README file through prompts using node js in the terminal.
+  Never gonna let you down
   ## Installation
-  clone the repo from GitHub https://github.com/Lyman17/Professional-README-Generator
+  Never gonna run around and desert you
   ## Usage
-  This file should be used to generate a professional README
+  Never gonna make you cry
   ## Contribution Guidelines
-  Contibutors are welcome
+  Never gonna say goodbye
   ## Test Instructions
-  Test from the integrated terminal node index.js
+  Never gonna tell a lie and hurt you
   ## License 
   The MIT License
-
+  ## Questions
+  - Github: RickRoller
+  - Email: yougot@RickRolled.com
   
